@@ -40,6 +40,7 @@ lazy_static! {
         Box::new(StripAnsiEscapeCodes),
         Box::new(Match),
         Box::new(Replace),
+        Box::new(Exists),
     ];
 
     // List of both mutable, and immutable functions that can be loaded into a
