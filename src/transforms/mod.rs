@@ -5,6 +5,8 @@ pub mod util;
 
 #[cfg(feature = "transforms-add_fields")]
 pub mod add_fields;
+#[cfg(feature = "transforms-add_kubernetes_metadata")]
+pub mod add_kubernetes_metadata;
 #[cfg(feature = "transforms-add_tags")]
 pub mod add_tags;
 #[cfg(feature = "transforms-ansi_stripper")]

@@ -353,6 +353,7 @@ transforms = [
   "transforms-ansi_stripper",
   "transforms-aws_cloudwatch_logs_subscription_parser",
   "transforms-aws_ec2_metadata",
+  "transforms-add_kubernetes_metadata",
   "transforms-coercer",
   "transforms-concat",
   "transforms-dedupe",
@@ -384,6 +385,7 @@ transforms-add_tags = []
 transforms-ansi_stripper = []
 transforms-aws_cloudwatch_logs_subscription_parser= []
 transforms-aws_ec2_metadata = ["evmap"]
+transforms-add_kubernetes_metadata = ["kubernetes"]
 transforms-coercer = []
 transforms-concat = []
 transforms-dedupe = []
